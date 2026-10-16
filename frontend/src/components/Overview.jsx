@@ -30,6 +30,12 @@ export default function Overview({ config, version, onChange }) {
             {config.prompt_version}). You can browse the results, review flagged answers and export the registry,
             but you can't run new extractions here.
           </p>
+          {config.static && (
+            <p>
+              There is no server behind this page: corrections you make in the review queue are saved only in this
+              browser (local storage) and are included in your CSV exports.
+            </p>
+          )}
           <p>
             To run extraction yourself on your own notes with a local model, see the{" "}
             <a href={config.readme_url} target="_blank" rel="noreferrer">README</a>.

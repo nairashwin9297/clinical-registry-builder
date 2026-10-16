@@ -1,0 +1,70 @@
+# Builds the static demo (React app + exported JSON, no server) and deploys it to GitHub Pages.
+# One-time setup: repo Settings -> Pages -> Source: "GitHub Actions".
+name: Deploy static demo to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; a newer push replaces a queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: pip install -r backend/requirements.txt
+
+      - name: Export notes, extractions and metrics to JSON
+        working-directory: backend
+        env:
+          SQLITE_PATH: /tmp/pages.sqlite3
+        run: |
+          python manage.py migrate --noinput
+          python manage.py import_results
+          python manage.py export_static
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Build the static site
+        working-directory: frontend
+        env:
+          VITE_STATIC: "true"
+          # Pages serves the site from /<repo-name>/
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: |
+          npm ci
+          npm test
+          npx vite build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

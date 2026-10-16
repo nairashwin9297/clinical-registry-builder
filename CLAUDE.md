@@ -15,11 +15,12 @@ It is a small portfolio demo inspired by published research on LLM-based procedu
 
 ## Stack
 - Backend: Python 3.11+, Django, Django REST Framework, Pytest
-- Database: SQLite for local dev, PostgreSQL in production (via DATABASE_URL)
+- Database: SQLite (local dev and the Docker image). No production database: the hosted demo is static.
 - Frontend: React (Vite, JavaScript, not TypeScript), Chart.js
 - LLM extraction: Google Colab notebook using Gemma (small instruction-tuned model, e.g. Gemma 3 4B) via Hugging Face transformers on a free GPU
-- Packaging: Docker, GitHub Actions (run tests on push)
-- Hosting: one Render service. Django serves the built React files, so there is a single deployed link.
+- Packaging: Docker (runs the full Django app locally; Django serves the built React files), GitHub Actions (run tests on push)
+- Hosting: GitHub Pages, static demo. A build of the React app that reads JSON exported from the backend
+  (no server), saves review corrections in the browser's localStorage, and deploys via GitHub Actions.
 
 ## Folder structure
 ```
@@ -76,8 +77,11 @@ Four screens:
 Clean, simple, responsive. Plain readable design, no heavy UI libraries.
 
 ### Phase 5: Deploy and polish
-- Dockerfile; Django serves React build; production settings via env vars.
-- GitHub Actions workflow running Pytest.
+- Dockerfile for running the full Django app locally; Django serves the React build; production settings via env vars.
+- Static demo for GitHub Pages: a management command exports notes, extractions and metrics to JSON; a static
+  build of the frontend reads that JSON and keeps corrections in localStorage.
+- GitHub Actions: one workflow runs Pytest (and the frontend checks) on push; one builds and deploys the static
+  demo to GitHub Pages on push to main.
 - README: what it does, screenshot, how it works, real results, limitations (approximate answer key, small sample, demo only, not for clinical use), how to run locally, "Open in Colab" link for the notebook, credit MTSamples.
 
 ## Git

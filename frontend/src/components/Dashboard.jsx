@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api, exportUrls } from "../api.js";
+import { api } from "../api.js";
 import { classLabel, pct, score } from "../format.js";
 import ProcedureChart from "./ProcedureChart.jsx";
 
@@ -25,7 +25,7 @@ export default function Dashboard({ version }) {
     <section>
       <h1>Dashboard</h1>
       <p className="lead">
-        All numbers are computed live from the database. Procedure accuracy compares the model's original answers
+        Every number here is computed from the stored extraction results; none are typed in. Procedure accuracy compares the model's original answers
         (before any review) with an <strong>approximate</strong> answer key derived from each note's title and
         keywords, so treat it as a rough guide on a small sample of {m.notes_scored} notes.
       </p>
@@ -104,9 +104,9 @@ export default function Dashboard({ version }) {
           <h2>Export</h2>
           <p className="muted">Exports use final values, with review corrections applied.</p>
           <div className="row wrap">
-            <a className="button" href={exportUrls.registry} download>Registry CSV</a>
-            <a className="button" href={exportUrls.redcap} download>REDCap import CSV</a>
-            <a className="button secondary" href={exportUrls.redcapDictionary} download>REDCap data dictionary</a>
+            <button onClick={() => api.download("registry")}>Registry CSV</button>
+            <button onClick={() => api.download("redcap")}>REDCap import CSV</button>
+            <button className="secondary" onClick={() => api.download("redcapDictionary")}>REDCap data dictionary</button>
           </div>
         </div>
       </div>

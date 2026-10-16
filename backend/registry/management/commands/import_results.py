@@ -3,6 +3,8 @@
     python manage.py import_results [--notes PATH] [--results PATH]
 
 Re-running replaces the imported MTSamples notes and their extractions (and any reviews of them).
+With --if-empty it does nothing when notes already exist (used by the Docker image on start-up, so
+restarting the container keeps your reviews).
 Failed extractions (e.g. invalid JSON after the retry) are imported as failed notes whose fields are
 all flagged, so they land in the review queue instead of being dropped.
 """
@@ -27,9 +29,13 @@ class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument("--notes", default=str(DATA_DIR / "notes.csv"))
         parser.add_argument("--results", default=str(DATA_DIR / "results.json"))
+        parser.add_argument("--if-empty", action="store_true", help="skip if the database already has notes")
 
     @transaction.atomic
     def handle(self, *args, **opts):
+        if opts["if_empty"] and Note.objects.exists():
+            self.stdout.write("Database already has notes; skipping import (--if-empty).")
+            return
         csv.field_size_limit(sys.maxsize)  # long transcriptions exceed the default field limit
         try:
             with open(opts["notes"], newline="", encoding="utf-8") as f:

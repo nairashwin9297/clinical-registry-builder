@@ -79,11 +79,11 @@ def live_only(view):
 # Read endpoints
 # ---------------------------------------------------------------------------------------------------
 
-@api_view(["GET"])
-def config(request):
+def config_dict():
     models = sorted({m for m in Note.objects.exclude(model_name="").values_list("model_name", flat=True)})
-    return Response({
+    return {
         "demo_mode": settings.DEMO_MODE,
+        "static": False,
         "readme_url": settings.README_URL,
         "fields": core.FIELDS,
         "procedure_options": core.PROCEDURE_OPTIONS,
@@ -93,7 +93,12 @@ def config(request):
         "notes_total": Note.objects.count(),
         "notes_by_source": {s: Note.objects.filter(source=s).count() for s, _ in Note.SOURCES},
         "live_model": None if settings.DEMO_MODE else settings.OLLAMA_MODEL,
-    })
+    }
+
+
+@api_view(["GET"])
+def config(request):
+    return Response(config_dict())
 
 
 @api_view(["GET"])

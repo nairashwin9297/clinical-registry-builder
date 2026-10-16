@@ -88,6 +88,14 @@ export default function ReviewQueue({ config, version, onChange, onOpenNote }) {
         <input type="checkbox" checked={showReviewed} onChange={(e) => setShowReviewed(e.target.checked)} />
         Also show items already reviewed
       </label>
+      {config.static && data.reviewed > 0 && (
+        <p className="muted small">
+          Corrections are stored in this browser only.{" "}
+          <button className="linklike" onClick={async () => { await api.resetReviews(); setSavedCount(0); onChange(); }}>
+            Clear my corrections
+          </button>
+        </p>
+      )}
       {savedCount > 0 && <p className="success" role="status">Saved {savedCount} correction{savedCount > 1 ? "s" : ""} this session.</p>}
       {data.items.length === 0
         ? <p className="panel">Nothing left to review.</p>

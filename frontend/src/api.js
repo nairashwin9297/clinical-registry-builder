@@ -1,5 +1,8 @@
-// Small fetch wrapper. Paths are relative, so the same build works behind Vite's dev proxy and
-// when Django serves the app.
+// The app talks to one of two backends with the same interface:
+// - httpApi: the Django REST API (local dev, Docker). Paths are relative, so the same build works behind
+//   Vite's dev proxy and when Django serves the app.
+// - staticApi: exported JSON + localStorage, for the GitHub Pages demo (built with VITE_STATIC=true).
+import { staticApi } from "./staticApi.js";
 
 async function request(path, options = {}) {
   const res = await fetch(`/api${path}`, options);
@@ -13,7 +16,13 @@ async function request(path, options = {}) {
   return body;
 }
 
-export const api = {
+const EXPORT_URLS = {
+  registry: "/api/export/registry.csv",
+  redcap: "/api/export/redcap.csv",
+  redcapDictionary: "/api/export/redcap-dictionary.csv",
+};
+
+const httpApi = {
   config: () => request("/config/"),
   notes: () => request("/notes/"),
   note: (id) => request(`/notes/${id}/`),
@@ -32,10 +41,8 @@ export const api = {
     return request("/notes/upload/", { method: "POST", body: form });
   },
   runExtraction: (noteId) => request(`/notes/${noteId}/extract/`, { method: "POST" }),
+  // The server builds the CSV (with corrections applied) and the browser downloads it.
+  download: async (kind) => { window.location.href = EXPORT_URLS[kind]; },
 };
 
-export const exportUrls = {
-  registry: "/api/export/registry.csv",
-  redcap: "/api/export/redcap.csv",
-  redcapDictionary: "/api/export/redcap-dictionary.csv",
-};
+export const api = import.meta.env.VITE_STATIC === "true" ? staticApi : httpApi;
