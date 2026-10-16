@@ -17,7 +17,7 @@ def env_bool(name, default):
 DEMO_MODE = env_bool("DEMO_MODE", True)
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434").rstrip("/")
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "gemma3:4b")
-README_URL = os.environ.get("README_URL", "https://github.com/ashwin-bb/clinical-registry-builder#readme")
+README_URL = os.environ.get("README_URL", "https://github.com/nairashwin9297/clinical-registry-builder#readme")
 
 SECRET_KEY = os.environ.get("SECRET_KEY", "dev-only-insecure-key")
 DEBUG = env_bool("DEBUG", True)
