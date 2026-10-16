@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+.pytest_cache/
+
+# Node dependencies
+node_modules/
+
+# Model files
+*.safetensors
+*.bin
+*.gguf
+
+# Raw MTSamples dataset (only the derived notes.csv / results.json are committed)
+data/mtsamples.csv
+
+# Build output
+frontend/dist/
+backend/staticfiles/
+
+# macOS
+.DS_Store
