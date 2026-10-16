@@ -26,3 +26,9 @@ backend/staticfiles/
 
 # macOS
 .DS_Store
+
+# Colab 5-note test output
+data/results_test.json
+
+# Local SQLite database
+*.sqlite3

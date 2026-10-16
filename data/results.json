@@ -1,0 +1,3425 @@
+{
+  "model": "google/gemma-3-4b-it",
+  "prompt_version": "v3",
+  "updated_at": "2026-10-16T06:35:09+00:00",
+  "results": [
+    {
+      "note_id": 2008,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Using sharp and dull dissection, all the ligamentous and soft tissue attachments were mobilized and the right first metatarsophalangeal joint was freed from all adhesions. Using the sagittal saw, all the osteophytes were removed from the dorsal, medial, and lateral aspect of the first right metatarsal head as well as the dorsal, medial, and lateral aspect of the base of the proximal phalanx of the right great toe."
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "The osteotomy consistent of two dorsal cuts and a plantar cut in a V-pattern with the apex of the osteotomy distal and the base of the osteotomy proximal. The two dorsal cuts were longer than the plantar cut in order to accommodate for the future internal fixation."
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "Youngswick osteotomy with internal screw fixation of the first right metatarsophalangeal joint of the right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "first right metatarsophalangeal joint"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Using sharp and dull dissection, all the ligamentous and soft tissue attachments were mobilized and the right first metatarsophalangeal joint was freed from all adhesions. Using the sagittal saw, all the osteophytes were removed from the dorsal, medial, and lateral aspect of the first right metatarsal head as well as the dorsal, medial, and lateral aspect of the base of the proximal phalanx of the right great toe.\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"The osteotomy consistent of two dorsal cuts and a plantar cut in a V-pattern with the apex of the osteotomy distal and the base of the osteotomy proximal. The two dorsal cuts were longer than the plantar cut in order to accommodate for the future internal fixation.\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    }\n  ],\n  \"body_part\": {\"value\": \"foot\", \"evidence\": \"Youngswick osteotomy with internal screw fixation of the first right metatarsophalangeal joint of the right foot\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"first right metatarsophalangeal joint\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 40.4
+    },
+    {
+      "note_id": 2017,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Trigger thumb release"
+          }
+        ],
+        "body_part": {
+          "value": "thumb",
+          "evidence": "Right trigger thumb"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Right trigger thumb"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Trigger thumb release\"}],\n  \"body_part\": {\"value\": \"thumb\", \"evidence\": \"Right trigger thumb\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"Right trigger thumb\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 10.6
+    },
+    {
+      "note_id": 2018,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Right carpal tunnel release"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Right excision of olecranon bursa"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse carpal ligament"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right arm"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal_tunnel_release\",\n      \"evidence\": \"Right carpal tunnel release\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Right excision of olecranon bursa\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"wrist\",\n    \"evidence\": \"transverse carpal ligament\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right arm\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 17.8
+    },
+    {
+      "note_id": 2020,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Trigger finger release"
+          }
+        ],
+        "body_part": {
+          "value": "finger",
+          "evidence": "digit's A1 pulley"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Trigger finger release\"}],\n  \"body_part\": {\"value\": \"finger\", \"evidence\": \"digit's A1 pulley\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 11.4
+    },
+    {
+      "note_id": 2025,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Trigger thumb release"
+          }
+        ],
+        "body_part": {
+          "value": "thumb",
+          "evidence": "MPJ crease of the thumb"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Trigger thumb release\"}],\n  \"body_part\": {\"value\": \"thumb\", \"evidence\": \"MPJ crease of the thumb\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 11.5
+    },
+    {
+      "note_id": 2030,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Right total knee arthroplasty using a Biomet cemented components"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Severe degenerative joint disease of the right knee"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Right total knee arthroplasty"
+        },
+        "patient_age": {
+          "value": 51,
+          "evidence": "The patient is a 51-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Right total knee arthroplasty using a Biomet cemented components\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Severe degenerative joint disease of the right knee\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Right total knee arthroplasty\"\n  },\n  \"patient_age\": {\n    \"value\": 51,\n    \"evidence\": \"The patient is a 51-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 19.6
+    },
+    {
+      "note_id": 2031,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Total hip replacement on the right side"
+          }
+        ],
+        "body_part": {
+          "value": "hip",
+          "evidence": "Right hip osteoarthritis"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right hip replacement"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"arthroplasty\", \"evidence\": \"Total hip replacement on the right side\"}],\n  \"body_part\": {\"value\": \"hip\", \"evidence\": \"Right hip osteoarthritis\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right hip replacement\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 13.4
+    },
+    {
+      "note_id": 2032,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "NexGen left total knee replacement"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Degenerative arthritis of left knee"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left lower extremity"
+        },
+        "patient_age": {
+          "value": 72,
+          "evidence": "a 72-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"NexGen left total knee replacement\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Degenerative arthritis of left knee\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left lower extremity\"\n  },\n  \"patient_age\": {\n    \"value\": 72,\n    \"evidence\": \"a 72-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 19.7
+    },
+    {
+      "note_id": 2033,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_fusion",
+            "evidence": "L4 to S1 fixation (Danek M8 system)."
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "In addition, all pedicle screws were stimulated with findings of above threshold noted at all sites."
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "Spacer snugness and positioning appeared satisfactory."
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "L4-L5 and L5-S1 degenerative disk disease/disk protrusions/spondylosis with radiculopathy."
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Left L4-L5 and L5-S1 Transforaminal Lumbar Interbody Fusion (TLIF)."
+        },
+        "patient_age": {
+          "value": 37,
+          "evidence": "The patient is a 37-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"L4 to S1 fixation (Danek M8 system).\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Right posterolateral L4 to S1 fusion.\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"In addition, all pedicle screws were stimulated with findings of above threshold noted at all sites.\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Electrophysiological monitoring was carried out throughout the procedure and remained stable with no undue changes reported.\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Local epidural veins were coagulated with bipolar and divided.\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Gelfoam was then placed in this area.\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"The decompression was assessed and appeared to be satisfactory.\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Spacer snugness and positioning appeared satisfactory.\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"The spacer was then carefully impacted into position.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"lumbar spine\",\n    \"evidence\": \"L4-L5 and L5-S1 degenerative disk disease/disk protrusions/spondylosis with radiculopathy.\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Left L4-L5 and L5-S1 Transforaminal Lumbar Interbody Fusion (TLIF).\"\n  },\n  \"patient_age\": {\n    \"value\": 37,\n    \"evidence\": \"The patient is a 37-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 46.5
+    },
+    {
+      "note_id": 2034,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "revision total hip arthroplasty"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "removal of antibiotic spacer"
+          }
+        ],
+        "body_part": {
+          "value": "hip",
+          "evidence": "right hip bipolar arthroplasty"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right hip bipolar arthroplasty"
+        },
+        "patient_age": {
+          "value": 66,
+          "evidence": "The patient is a 66-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"revision total hip arthroplasty\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"removal of antibiotic spacer\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hip\",\n    \"evidence\": \"right hip bipolar arthroplasty\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right hip bipolar arthroplasty\"\n  },\n  \"patient_age\": {\n    \"value\": 66,\n    \"evidence\": \"The patient is a 66-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 22.0
+    },
+    {
+      "note_id": 2038,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Left carpal tunnel release with flexor tenosynovectomy"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "flexor tenosynovectomy"
+          }
+        ],
+        "body_part": {
+          "value": "hand",
+          "evidence": "left hand was anesthetized suitable for carpal tunnel release"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left carpal tunnel release"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal_tunnel_release\",\n      \"evidence\": \"Left carpal tunnel release with flexor tenosynovectomy\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"flexor tenosynovectomy\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"cortisone injection of trigger fingers, left third and fourth fingers\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"injection of Dupuytren's nodule, left palm\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hand\",\n    \"evidence\": \"left hand was anesthetized suitable for carpal tunnel release\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left carpal tunnel release\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 25.5
+    },
+    {
+      "note_id": 2040,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Tailor bunionectomy, Weil-type with screw fixation"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "two 3.4 x 15 mm and one 2.4 x 14 mm OsteoMed noncannulated screws were placed across the osteotomy site"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "resected from his osseous attachments and a small tenotomy was performed"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "Tailor bunion deformity, right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right foot"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Tailor bunionectomy, Weil-type with screw fixation\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"two 3.4 x 15 mm and one 2.4 x 14 mm OsteoMed noncannulated screws were placed across the osteotomy site\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"resected from his osseous attachments and a small tenotomy was performed\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"resected and passed from the operative field\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"periosteal and capsular layers were then reapproximated\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"The periosteal and capsular layers were then reflected medially and laterally from the head of the fifth metatarsal\"\n    }\n  ],\n  \"body_part\": {\"value\": \"foot\", \"evidence\": \"Tailor bunion deformity, right foot\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right foot\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 34.4
+    },
+    {
+      "note_id": 2044,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_fusion",
+            "evidence": "Posterior spinal fusion from T2-L2"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "Posterior osteotomy through T7-T8 and T8-T9. Posterior elements to include laminotomy-foraminotomy and decompression of the nerve roots"
+          }
+        ],
+        "body_part": {
+          "value": "spine",
+          "evidence": "Posterior spinal fusion from T2-L2"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "Posterior spinal fusion"
+        },
+        "patient_age": {
+          "value": 12,
+          "evidence": "The patient is a 12-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Posterior spinal fusion from T2-L2\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Posterior spinal instrumentation from T2-L2\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Posterior osteotomy through T7-T8 and T8-T9. Posterior elements to include laminotomy-foraminotomy and decompression of the nerve roots\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Laminotomy-foraminotomy and decompression of the nerve roots\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"spine\",\n    \"evidence\": \"Posterior spinal fusion from T2-L2\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"Posterior spinal fusion\"\n  },\n  \"patient_age\": {\n    \"value\": 12,\n    \"evidence\": \"The patient is a 12-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 31.4
+    },
+    {
+      "note_id": 2052,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopy was then carried out in standard fashion using a 30-degree Dionic scope"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "The shoulder was instilled with fluid from posteriorly, followed by the arthroscope"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "rotator cuff tear, left."
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"arthroscopy\", \"evidence\": \"Arthroscopy was then carried out in standard fashion using a 30-degree Dionic scope\"}],\n  \"body_part\": {\"value\": \"shoulder\", \"evidence\": \"The shoulder was instilled with fluid from posteriorly, followed by the arthroscope\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"rotator cuff tear, left.\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 14.8
+    },
+    {
+      "note_id": 2060,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Release of A1 pulley, right thumb"
+          }
+        ],
+        "body_part": {
+          "value": "thumb",
+          "evidence": "release of A1 pulley, right thumb"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right thumb"
+        },
+        "patient_age": {
+          "value": 51,
+          "evidence": "This is a 51-year-old right hand dominant female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Release of A1 pulley, right thumb\"}],\n  \"body_part\": {\"value\": \"thumb\", \"evidence\": \"release of A1 pulley, right thumb\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right thumb\"},\n  \"patient_age\": {\"value\": 51, \"evidence\": \"This is a 51-year-old right hand dominant female\"}\n}\n```"
+      ],
+      "seconds": 14.1
+    },
+    {
+      "note_id": 2062,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Release of A1 pulley"
+          }
+        ],
+        "body_part": {
+          "value": "thumb",
+          "evidence": "right upper extremity"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right upper extremity"
+        },
+        "patient_age": {
+          "value": "2-1/2-year-old",
+          "evidence": "The patient is 2-1/2-year-old"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Release of A1 pulley\"}],\n  \"body_part\": {\"value\": \"thumb\", \"evidence\": \"right upper extremity\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right upper extremity\"},\n  \"patient_age\": {\"value\": \"2-1/2-year-old\", \"evidence\": \"The patient is 2-1/2-year-old\"}\n}\n```"
+      ],
+      "seconds": 14.0
+    },
+    {
+      "note_id": 2069,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "External fixation of left pilon fracture"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "left pilon fracture"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left pilon fracture"
+        },
+        "patient_age": {
+          "value": 58,
+          "evidence": "The patient is a 58-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"External fixation of left pilon fracture\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Closed reduction of left great toe, T1 fracture\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"left pilon fracture\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left pilon fracture\"\n  },\n  \"patient_age\": {\n    \"value\": 58,\n    \"evidence\": \"The patient is a 58-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 20.9
+    },
+    {
+      "note_id": 2070,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Revision and in situ pinning of the right hip"
+          }
+        ],
+        "body_part": {
+          "value": "hip",
+          "evidence": "right hip"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right hip"
+        },
+        "patient_age": {
+          "value": 13,
+          "evidence": "The patient is a 13-year-old girl"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Revision and in situ pinning of the right hip\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hip\",\n    \"evidence\": \"right hip\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right hip\"\n  },\n  \"patient_age\": {\n    \"value\": 13,\n    \"evidence\": \"The patient is a 13-year-old girl\"\n  }\n}\n```"
+      ],
+      "seconds": 16.8
+    },
+    {
+      "note_id": 2072,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "following freeing of adhesions using tracks and sutures, the pectoralis major tendon was able to reapproximated to its insertion site on the humerus just lateral to the biceps"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "A soft tissue repair was performed with #5 FiberWire suture and a single suture anchor of 5 x 5 bioabsorbable anchor was placed in order to decrease tension at the repair site."
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "right pectoralis major tendon rupture"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right pectoralis major tendon rupture"
+        },
+        "patient_age": {
+          "value": 26,
+          "evidence": "The patient is a 26-year-old"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"following freeing of adhesions using tracks and sutures, the pectoralis major tendon was able to reapproximated to its insertion site on the humerus just lateral to the biceps\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"A soft tissue repair was performed with #5 FiberWire suture and a single suture anchor of 5 x 5 bioabsorbable anchor was placed in order to decrease tension at the repair site.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"right pectoralis major tendon rupture\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right pectoralis major tendon rupture\"\n  },\n  \"patient_age\": {\n    \"value\": 26,\n    \"evidence\": \"The patient is a 26-year-old\"\n  }\n}\n```"
+      ],
+      "seconds": 25.7
+    },
+    {
+      "note_id": 2082,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Distal metaphyseal osteotomy and bunionectomy with internal screw fixation, right foot"
+          },
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Distal metaphyseal osteotomy with internal screw fixation with bunionectomy, right foot"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Reposition osteotomy with internal screw fixation to correct angulation deformity of proximal phalanx, right foot"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "Distal metaphyseal osteotomy with internal screw fixation with bunionectomy, right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Distal metaphyseal osteotomy and bunionectomy with internal screw fixation, right foot"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Distal metaphyseal osteotomy and bunionectomy with internal screw fixation, right foot\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Distal metaphyseal osteotomy with internal screw fixation with bunionectomy, right foot\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Reposition osteotomy with internal screw fixation to correct angulation deformity of proximal phalanx, right foot\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"Distal metaphyseal osteotomy with internal screw fixation with bunionectomy, right foot\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Distal metaphyseal osteotomy and bunionectomy with internal screw fixation, right foot\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 28.9
+    },
+    {
+      "note_id": 2087,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Total hip replacement"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "Osteosynthesis of acetabular fracture on the left, complex variety"
+          }
+        ],
+        "body_part": {
+          "value": "hip",
+          "evidence": "Acetabular fracture on the left"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left lower extremity and buttock area"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Total hip replacement\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Osteosynthesis of acetabular fracture on the left, complex variety\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hip\",\n    \"evidence\": \"Acetabular fracture on the left\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left lower extremity and buttock area\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 18.6
+    },
+    {
+      "note_id": 2101,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "ORIF with irrigation and debridement of open fracture"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Irrigation and debridement of right knee"
+          }
+        ],
+        "body_part": {
+          "value": "ankle",
+          "evidence": "right open ankle fracture"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right femoral neck fracture"
+        },
+        "patient_age": {
+          "value": 53,
+          "evidence": "The patient is a 53-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"ORIF with irrigation and debridement of open fracture\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"closed reduction and screw fixation of right femoral neck fracture\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"retrograde femoral nail\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Irrigation and debridement of right knee\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Irrigation and debridement of right elbow abrasions\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"ankle\",\n    \"evidence\": \"right open ankle fracture\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right femoral neck fracture\"\n  },\n  \"patient_age\": {\n    \"value\": 53,\n    \"evidence\": \"The patient is a 53-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 28.8
+    },
+    {
+      "note_id": 2103,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Open reduction and internal fixation of left distal radius"
+          }
+        ],
+        "body_part": {
+          "value": "radius",
+          "evidence": "left distal radius fracture"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left distal radius fracture"
+        },
+        "patient_age": {
+          "value": 42,
+          "evidence": "The patient was a 42-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"fracture_fixation\", \"evidence\": \"Open reduction and internal fixation of left distal radius\"}],\n  \"body_part\": {\"value\": \"radius\", \"evidence\": \"left distal radius fracture\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left distal radius fracture\"},\n  \"patient_age\": {\"value\": 42, \"evidence\": \"The patient was a 42-year-old female\"}\n}\n```"
+      ],
+      "seconds": 13.9
+    },
+    {
+      "note_id": 2104,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Open reduction and internal fixation of left tibia"
+          },
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "The intraarticular cartilage was restored using two 45 K-wires"
+          }
+        ],
+        "body_part": {
+          "value": "tibia",
+          "evidence": "Open reduction and internal fixation of left tibia"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left tibial tubercle avulsion fracture"
+        },
+        "patient_age": {
+          "value": 14,
+          "evidence": "The patient is a 14-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Open reduction and internal fixation of left tibia\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"The intraarticular cartilage was restored using two 45 K-wires\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"tibia\",\n    \"evidence\": \"Open reduction and internal fixation of left tibia\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left tibial tubercle avulsion fracture\"\n  },\n  \"patient_age\": {\n    \"value\": 14,\n    \"evidence\": \"The patient is a 14-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 21.4
+    },
+    {
+      "note_id": 2110,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Open reduction and internal screw fixation right fifth metatarsal"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "right fifth metatarsal"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right fifth metatarsal"
+        },
+        "patient_age": {
+          "value": 32,
+          "evidence": "32-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Open reduction and internal screw fixation right fifth metatarsal\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"right fifth metatarsal\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right fifth metatarsal\"\n  },\n  \"patient_age\": {\n    \"value\": 32,\n    \"evidence\": \"32-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 19.8
+    },
+    {
+      "note_id": 2113,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Repair of nerve and tendon, right ring finger"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Exploration of digital laceration"
+          }
+        ],
+        "body_part": {
+          "value": "finger",
+          "evidence": "laceration to right ring finger"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right ring finger"
+        },
+        "patient_age": {
+          "value": 13,
+          "evidence": "This is a 13-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Repair of nerve and tendon, right ring finger\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Exploration of digital laceration\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"finger\",\n    \"evidence\": \"laceration to right ring finger\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right ring finger\"\n  },\n  \"patient_age\": {\n    \"value\": \"13\",\n    \"evidence\": \"This is a 13-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 19.8
+    },
+    {
+      "note_id": 2115,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "Left L4-L5 transforaminal neuroplasty with nerve root decompression"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "low back"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left L4-L5"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"spinal_decompression\", \"evidence\": \"Left L4-L5 transforaminal neuroplasty with nerve root decompression\"}],\n  \"body_part\": {\"value\": \"lumbar spine\", \"evidence\": \"low back\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left L4-L5\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 12.8
+    },
+    {
+      "note_id": 2124,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopy with arthroscopic rotator cuff debridement"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Gross bursectomy was carried out with a 4.2 meniscal shaver"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "left shoulder"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left shoulder"
+        },
+        "patient_age": {
+          "value": 38,
+          "evidence": "This is a 38-year-old morbidly obese white male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopy with arthroscopic rotator cuff debridement\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Gross bursectomy was carried out with a 4.2 meniscal shaver\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"A full and complete diagnostic intraarticular arthroscopy was carried out\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"left shoulder\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left shoulder\"\n  },\n  \"patient_age\": {\n    \"value\": 38,\n    \"evidence\": \"This is a 38-year-old morbidly obese white male\"\n  }\n}\n```"
+      ],
+      "seconds": 23.7
+    },
+    {
+      "note_id": 2157,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Right McBride bunionectomy. Right basilar wedge osteotomy with OrthoPro screw fixation."
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "The screw was placed following proper technique."
+          }
+        ],
+        "body_part": {
+          "value": "hallux",
+          "evidence": "right hallux abductovalgus deformity"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Right McBride bunionectomy. Right basilar wedge osteotomy"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Right McBride bunionectomy. Right basilar wedge osteotomy with OrthoPro screw fixation.\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"The screw was placed following proper technique.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hallux\",\n    \"evidence\": \"right hallux abductovalgus deformity\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Right McBride bunionectomy. Right basilar wedge osteotomy\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 22.6
+    },
+    {
+      "note_id": 2170,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "Microscopic assisted lumbar laminotomy with discectomy at L5-S1 on the left"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "Microscopic assisted lumbar laminotomy with discectomy at L5-S1 on the left"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Herniated nucleus pulposus of L5-S1 on the left"
+        },
+        "patient_age": {
+          "value": 51,
+          "evidence": "The patient is a 51-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Microscopic assisted lumbar laminotomy with discectomy at L5-S1 on the left\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"A #15 Bard-Parker blade was utilized to create an annulotomy\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Two tier rongeur was then utilized to grasp the disc material\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Up and downbiting pituitary rongeurs were utilized to remove any other loose disc pieces\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"A foraminotomy was created with a Kerrison rongeur\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"lumbar spine\",\n    \"evidence\": \"Microscopic assisted lumbar laminotomy with discectomy at L5-S1 on the left\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Herniated nucleus pulposus of L5-S1 on the left\"\n  },\n  \"patient_age\": {\n    \"value\": 51,\n    \"evidence\": \"The patient is a 51-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 32.4
+    },
+    {
+      "note_id": 2172,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Ligament reconstruction and tendon interposition arthroplasty"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "right wrist"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right upper extremity"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"arthroplasty\", \"evidence\": \"Ligament reconstruction and tendon interposition arthroplasty\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"right wrist\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right upper extremity\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 12.7
+    },
+    {
+      "note_id": 2176,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "Right L4 and L5 transpedicular decompression of distal right L4 and L5 nerve roots"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "Right L4-S1 posterolateral fusion with local bone graft"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "Pedicle screws were placed L4-L5 and S1 on the right side"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "right lumbosacral radiculopathy secondary to lumbar spondylolysis"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "The patient was brought to the operating room, peripheral venous lines were placed. General anesthesia was induced. The patient was intubated."
+        },
+        "patient_age": {
+          "value": 54,
+          "evidence": "The patient is a 54-year-old man"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Right L4 and L5 transpedicular decompression of distal right L4 and L5 nerve roots\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Right L4-L5 and right L5-S1 laminotomies, medial facetectomies, and foraminotomies, decompression of right L5 and S1 nerve roots\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Right L4-S1 posterolateral fusion with local bone graft\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Preparation harvesting of local bone graft\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Pedicle screws were placed L4-L5 and S1 on the right side\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"lumbar spine\",\n    \"evidence\": \"right lumbosacral radiculopathy secondary to lumbar spondylolysis\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"The patient was brought to the operating room, peripheral venous lines were placed. General anesthesia was induced. The patient was intubated.\"\n  },\n  \"patient_age\": {\n    \"value\": \"54\",\n    \"evidence\": \"The patient is a 54-year-old man\"\n  }\n}\n```"
+      ],
+      "seconds": 34.3
+    },
+    {
+      "note_id": 2178,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_fusion",
+            "evidence": "Posterior spinal fusion, L4 to S1"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "Complete laminectomy, L4"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "Posterior spinal instrumentation, L4 to S1, using Synthes Pangea System"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Insertion of morselized autograft, L4 to S1"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "Complete laminectomy, L4"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "A dural repair, right sided"
+        },
+        "patient_age": {
+          "value": 48,
+          "evidence": "The patient is a 48-year-old gentleman"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Posterior spinal fusion, L4 to S1\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Complete laminectomy, L4\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Complete laminectomy plus facetectomy, L3-L4 level\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"A dural repair, right sided, on the lateral sheath, subarticular recess at the L4 pedicle level\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Posterior spinal instrumentation, L4 to S1, using Synthes Pangea System\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Insertion of morselized autograft, L4 to S1\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"lumbar spine\",\n    \"evidence\": \"Complete laminectomy, L4\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"A dural repair, right sided\"\n  },\n  \"patient_age\": {\n    \"value\": 48,\n    \"evidence\": \"The patient is a 48-year-old gentleman\"\n  }\n}\n```"
+      ],
+      "seconds": 37.1
+    },
+    {
+      "note_id": 2181,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "laminectomy was carried out of L5-S1"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "posterolateral fusion, pedicle screw fixation to L4 to S1 with compression"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "Lumbar spine"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "unilateral medial facetectomy"
+        },
+        "patient_age": {
+          "value": 43,
+          "evidence": "the patient is a 43-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"spinal_decompression\", \"evidence\": \"laminectomy was carried out of L5-S1\"}, {\"value\": \"spinal_fusion\", \"evidence\": \"posterolateral fusion, pedicle screw fixation to L4 to S1 with compression\"}],\n  \"body_part\": {\"value\": \"lumbar spine\", \"evidence\": \"Lumbar spine\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"unilateral medial facetectomy\"},\n  \"patient_age\": {\"value\": 43, \"evidence\": \"the patient is a 43-year-old male\"}\n}\n```"
+      ],
+      "seconds": 16.8
+    },
+    {
+      "note_id": 2182,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_fusion",
+            "evidence": "Posterior spinal fusion at the level of L4-L5 and L5-S1 utilizing local bone graft, allograft and segmental instrumentation"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "Microscopic-assisted revision of bilateral decompressive lumbar laminectomies and foraminotomies at the levels of L3-L4, L4-L5, and L5-S1"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "Microscopic-assisted revision of bilateral decompressive lumbar laminectomies and foraminotomies at the levels of L3-L4, L4-L5, and L5-S1"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "Recurrent herniated nucleus pulposus at L4-L5 bilaterally"
+        },
+        "patient_age": {
+          "value": 59,
+          "evidence": "The patient is a 59-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Posterior spinal fusion at the level of L4-L5 and L5-S1 utilizing local bone graft, allograft and segmental instrumentation\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Microscopic-assisted revision of bilateral decompressive lumbar laminectomies and foraminotomies at the levels of L3-L4, L4-L5, and L5-S1\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"posterior lumbar interbody arthrodesis utilizing cage instrumentation at L4-L5 with local bone graft and allograft\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"lumbar spine\",\n    \"evidence\": \"Microscopic-assisted revision of bilateral decompressive lumbar laminectomies and foraminotomies at the levels of L3-L4, L4-L5, and L5-S1\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"Recurrent herniated nucleus pulposus at L4-L5 bilaterally\"\n  },\n  \"patient_age\": {\n    \"value\": 59,\n    \"evidence\": \"The patient is a 59-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 37.1
+    },
+    {
+      "note_id": 2189,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopy of the left knee with medial meniscoplasty"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Arthroscopy of the left knee"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left knee"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"arthroscopy\", \"evidence\": \"Arthroscopy of the left knee with medial meniscoplasty\"}],\n  \"body_part\": {\"value\": \"knee\", \"evidence\": \"Arthroscopy of the left knee\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left knee\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 12.7
+    },
+    {
+      "note_id": 2196,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Revision right total knee arthroplasty"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Revision right total knee arthroplasty"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Revision right total knee arthroplasty"
+        },
+        "patient_age": {
+          "value": 68,
+          "evidence": "The patient is a 68-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Revision right total knee arthroplasty\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Revision right total knee arthroplasty\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Revision right total knee arthroplasty\"\n  },\n  \"patient_age\": {\n    \"value\": 68,\n    \"evidence\": \"The patient is a 68-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 25.6
+    },
+    {
+      "note_id": 2200,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Intramedullary nail fixation of the left tibia fracture with a Stryker T2 tibial nail"
+          }
+        ],
+        "body_part": {
+          "value": "tibia",
+          "evidence": "left tibia fracture"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left tibia fracture"
+        },
+        "patient_age": {
+          "value": 19,
+          "evidence": "The patient is a 19-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"fracture_fixation\", \"evidence\": \"Intramedullary nail fixation of the left tibia fracture with a Stryker T2 tibial nail\"}],\n  \"body_part\": {\"value\": \"tibia\", \"evidence\": \"left tibia fracture\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left tibia fracture\"},\n  \"patient_age\": {\"value\": 19, \"evidence\": \"The patient is a 19-year-old male\"}\n}\n```"
+      ],
+      "seconds": 15.0
+    },
+    {
+      "note_id": 2202,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Bilateral knee arthroplasty"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Bilateral knee arthroplasty"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "Bilateral knee arthroplasty"
+        },
+        "patient_age": {
+          "value": 79,
+          "evidence": "This is a 79-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Bilateral knee arthroplasty\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"The Zimmer NexGen total knee system was utilized\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Bilateral knee arthroplasty\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"Bilateral knee arthroplasty\"\n  },\n  \"patient_age\": {\n    \"value\": 79,\n    \"evidence\": \"This is a 79-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 21.8
+    },
+    {
+      "note_id": 2205,
+      "status": "ok",
+      "attempts": 2,
+      "fields": {
+        "procedure": [],
+        "body_part": {
+          "value": "foot",
+          "evidence": "bilateral calcanei"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "open reduction and internal fixation of bilateral calcanei"
+        },
+        "patient_age": {
+          "value": 59,
+          "evidence": "The patient is a 59-year-old gentleman"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"irrigation and debridement\",\n      \"evidence\": \"irrigation and debridement with VAC placement\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"bilateral calcanei\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"open reduction and internal fixation of bilateral calcanei\"\n  },\n  \"patient_age\": {\n    \"value\": 59,\n    \"evidence\": \"The patient is a 59-year-old gentleman\"\n  }\n}\n```",
+        "```json\n{\n  \"procedure\": [],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"bilateral calcanei\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"open reduction and internal fixation of bilateral calcanei\"\n  },\n  \"patient_age\": {\n    \"value\": 59,\n    \"evidence\": \"The patient is a 59-year-old gentleman\"\n  }\n}\n```"
+      ],
+      "seconds": 32.9
+    },
+    {
+      "note_id": 2212,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Hemiarthroplasty of left shoulder utilizing a global advantage system"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "left shoulder"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left shoulder"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Hemiarthroplasty of left shoulder utilizing a global advantage system\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"left shoulder\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left shoulder\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 17.1
+    },
+    {
+      "note_id": 2213,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "microscopic decompression of nerve root"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "hemilaminotomy by starting with the inferior margin of the superior lamina"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "posterior cervical area"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left C5-6 hemilaminotomy"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"microscopic decompression of nerve root\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"hemilaminotomy by starting with the inferior margin of the superior lamina\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"posterior cervical area\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left C5-6 hemilaminotomy\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 19.3
+    },
+    {
+      "note_id": 2221,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Hamstring tendons were isolated and released in order of semitendinosus, semimembranosus, and sartorius"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "The patient presents now with worsening left knee flexion contracture"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Left distal medial hamstring release"
+        },
+        "patient_age": {
+          "value": 12,
+          "evidence": "The patient is a 12-year-old boy"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Hamstring tendons were isolated and released in order of semitendinosus, semimembranosus, and sartorius\"}],\n  \"body_part\": {\"value\": \"knee\", \"evidence\": \"The patient presents now with worsening left knee flexion contracture\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"Left distal medial hamstring release\"},\n  \"patient_age\": {\"value\": 12, \"evidence\": \"The patient is a 12-year-old boy\"}\n}\n```"
+      ],
+      "seconds": 16.1
+    },
+    {
+      "note_id": 2227,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Repair flexor carpi radialis."
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "2 transverse lacerations"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right upper extremity"
+        },
+        "patient_age": {
+          "value": 21,
+          "evidence": "The patient is a 21-year-old"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"tendon_ligament_repair\", \"evidence\": \"Repair flexor carpi radialis.\"}, {\"value\": \"tendon_ligament_repair\", \"evidence\": \"Repair palmaris longus\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"2 transverse lacerations\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right upper extremity\"},\n  \"patient_age\": {\"value\": 21, \"evidence\": \"The patient is a 21-year-old\"}\n}\n```"
+      ],
+      "seconds": 15.6
+    },
+    {
+      "note_id": 2231,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Repair of left little extensor tendon"
+          }
+        ],
+        "body_part": {
+          "value": "finger",
+          "evidence": "left little finger extensor tendon laceration"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left little finger"
+        },
+        "patient_age": {
+          "value": 14,
+          "evidence": "The patient is a 14-year-old"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"tendon_ligament_repair\", \"evidence\": \"Repair of left little extensor tendon\"}],\n  \"body_part\": {\"value\": \"finger\", \"evidence\": \"left little finger extensor tendon laceration\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left little finger\"},\n  \"patient_age\": {\"value\": 14, \"evidence\": \"The patient is a 14-year-old\"}\n}\n```"
+      ],
+      "seconds": 13.1
+    },
+    {
+      "note_id": 2242,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Release of first dorsal extensor compartment"
+          }
+        ],
+        "body_part": {
+          "value": "hand",
+          "evidence": "first dorsal extensor compartment"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right hand dominant"
+        },
+        "patient_age": {
+          "value": 47,
+          "evidence": "The patient is a 47-year-old"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"Release of first dorsal extensor compartment\"}],\n  \"body_part\": {\"value\": \"hand\", \"evidence\": \"first dorsal extensor compartment\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right hand dominant\"},\n  \"patient_age\": {\"value\": 47, \"evidence\": \"The patient is a 47-year-old\"}\n}\n```"
+      ],
+      "seconds": 13.5
+    },
+    {
+      "note_id": 2247,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "soft_tissue_release",
+            "evidence": "de Quervain release. Fascial lengthening flap of the 1st dorsal compartment"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse incision just distal to the radial styloid"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"soft_tissue_release\", \"evidence\": \"de Quervain release. Fascial lengthening flap of the 1st dorsal compartment\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"transverse incision just distal to the radial styloid\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 13.2
+    },
+    {
+      "note_id": 2248,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_fusion",
+            "evidence": "Anterior exposure diskectomy and fusion at L4-L5 and L5-S1"
+          }
+        ],
+        "body_part": {
+          "value": "lumbar spine",
+          "evidence": "Left lower quadrant incision was performed"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"spinal_fusion\", \"evidence\": \"Anterior exposure diskectomy and fusion at L4-L5 and L5-S1\"}],\n  \"body_part\": {\"value\": \"lumbar spine\", \"evidence\": \"Left lower quadrant incision was performed\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 13.2
+    },
+    {
+      "note_id": 2252,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Carpal tunnel release"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "de Quervain's release"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "The arm was exsanguinated with Esmarch and the tourniquet inflated to 250 mmHg."
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Carpal tunnel release\"}, {\"value\": \"soft_tissue_release\", \"evidence\": \"de Quervain's release\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"The arm was exsanguinated with Esmarch and the tourniquet inflated to 250 mmHg.\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 15.5
+    },
+    {
+      "note_id": 2265,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Closed reduction percutaneous pinning, left distal humerus"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Tethered brachial artery, left elbow"
+          }
+        ],
+        "body_part": {
+          "value": "elbow",
+          "evidence": "left distal humerus"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "closed type-III supracondylar fracture, left distal humerus"
+        },
+        "patient_age": {
+          "value": 4,
+          "evidence": "This is a 4-year-old white male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Closed reduction percutaneous pinning, left distal humerus\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Tethered brachial artery, left elbow\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"elbow\",\n    \"evidence\": \"left distal humerus\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"closed type-III supracondylar fracture, left distal humerus\"\n  },\n  \"patient_age\": {\n    \"value\": 4,\n    \"evidence\": \"This is a 4-year-old white male\"\n  }\n}\n```"
+      ],
+      "seconds": 21.5
+    },
+    {
+      "note_id": 2269,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "Closed open reduction and internal fixation of right ankle"
+          },
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "A six hole one-third tibial plate, one 12 mm 3.5 mm cortical screw fully threaded and two 16 mm 3.5 mm cortical fully-threaded screws"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "There were two 20 mm 4.0 cancellous screws and one 18 mm 4.0 cancellous screw placed"
+          }
+        ],
+        "body_part": {
+          "value": "ankle",
+          "evidence": "right ankle"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right ankle"
+        },
+        "patient_age": {
+          "value": 87,
+          "evidence": "an 87-year-old Caucasian female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Closed open reduction and internal fixation of right ankle\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"A six hole one-third tibial plate, one 12 mm 3.5 mm cortical screw fully threaded and two 16 mm 3.5 mm cortical fully-threaded screws\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"There were two 20 mm 4.0 cancellous screws and one 18 mm 4.0 cancellous screw placed\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"There were two 4.0 cancellous partially-threaded screws placed\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"ankle\",\n    \"evidence\": \"right ankle\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right ankle\"\n  },\n  \"patient_age\": {\n    \"value\": 87,\n    \"evidence\": \"an 87-year-old Caucasian female\"\n  }\n}\n```"
+      ],
+      "seconds": 31.2
+    },
+    {
+      "note_id": 2272,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Closing wedge osteotomy, fifth metatarsal with internal screw fixation"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "Tailor's bunion, right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Closing wedge osteotomy, fifth metatarsal with internal screw fixation, right foot"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Closing wedge osteotomy, fifth metatarsal with internal screw fixation\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"Tailor's bunion, right foot\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Closing wedge osteotomy, fifth metatarsal with internal screw fixation, right foot\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 19.2
+    },
+    {
+      "note_id": 2273,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Left hip cemented hemiarthroplasty"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          }
+        ],
+        "body_part": {
+          "value": "hip",
+          "evidence": "Left hip cemented hemiarthroplasty"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Left hip cemented hemiarthroplasty"
+        },
+        "patient_age": {
+          "value": 53,
+          "evidence": "The patient is a 53-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Left hip cemented hemiarthroplasty\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hip\",\n    \"evidence\": \"Left hip cemented hemiarthroplasty\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Left hip cemented hemiarthroplasty\"\n  },\n  \"patient_age\": {\n    \"value\": 53,\n    \"evidence\": \"The patient is a 53-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 23.9
+    },
+    {
+      "note_id": 2275,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "fracture_fixation",
+            "evidence": "closed reduction with splint application with use of image intensifier"
+          }
+        ],
+        "body_part": {
+          "value": "forearm",
+          "evidence": "both-bone forearm fracture"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left distal both-bone forearm fracture"
+        },
+        "patient_age": {
+          "value": 11,
+          "evidence": "Mr. ABC is an 11-year-old boy"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"fracture_fixation\", \"evidence\": \"closed reduction with splint application with use of image intensifier\"}],\n  \"body_part\": {\"value\": \"forearm\", \"evidence\": \"both-bone forearm fracture\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left distal both-bone forearm fracture\"},\n  \"patient_age\": {\"value\": 11, \"evidence\": \"Mr. ABC is an 11-year-old boy\"}\n}\n```"
+      ],
+      "seconds": 13.8
+    },
+    {
+      "note_id": 2276,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Endoscopic carpal tunnel release"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse incision one fingerbreadth proximal to the distal volar wrist crease"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Endoscopic carpal tunnel release\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"transverse incision one fingerbreadth proximal to the distal volar wrist crease\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 13.3
+    },
+    {
+      "note_id": 2277,
+      "status": "ok",
+      "attempts": 2,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with removal of the cartilage loose body and microfracture of the medial femoral condyle with chondroplasty"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Left knee arthroscopy"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Left knee arthroscopy"
+        },
+        "patient_age": {
+          "value": 13,
+          "evidence": "The patient is 13-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with removal of the cartilage loose body and microfracture of the medial femoral condyle with chondroplasty\"\n    },\n    {\n      \"value\": \"microfracture\",\n      \"evidence\": \"microfracture technique was then performed to 4 mm depth at 2 to 3 mm distances\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Left knee arthroscopy\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Left knee arthroscopy\"\n  },\n  \"patient_age\": {\n    \"value\": 13,\n    \"evidence\": \"The patient is 13-year-old male\"\n  }\n}\n```",
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with removal of the cartilage loose body and microfracture of the medial femoral condyle with chondroplasty\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Left knee arthroscopy\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Left knee arthroscopy\"\n  },\n  \"patient_age\": {\n    \"value\": 13,\n    \"evidence\": \"The patient is 13-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 42.5
+    },
+    {
+      "note_id": 2283,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Right carpal tunnel release"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse wrist crease"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right carpal tunnel release"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Right carpal tunnel release\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"transverse wrist crease\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right carpal tunnel release\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 12.0
+    },
+    {
+      "note_id": 2284,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Approximately 2.5 cm incision was made over the volar aspect of the wrist over the carpal tunnel region. First, dissection through the skin in the superficial fascia was performed with a self-retractor placed in addition to Ragnells retracting proximally and distally. The palmaris brevis muscle was then identified and sharply transected. At this time, we identified the transverse carpal tunnel ligament and a #15 blade was used to sharply and carefully release that fascia."
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Approximately, a 1.5 cm incision was made over the A1 pulley in the volar aspect of the palm of the right index and right middle fingers. First, we went for the index finger. Once the skin incision was made, Metzenbaum scissor was used to longitudinally dissect the subcutaneous tissue and with Ragnell retractors we identified the A1 pulley."
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "Approximately 2.5 cm incision was made over the volar aspect of the wrist over the carpal tunnel region."
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Right carpal tunnel release. Right index and middle fingers release A1 pulley."
+        },
+        "patient_age": {
+          "value": 78,
+          "evidence": "This is a 78-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal_tunnel_release\",\n      \"evidence\": \"Approximately 2.5 cm incision was made over the volar aspect of the wrist over the carpal tunnel region. First, dissection through the skin in the superficial fascia was performed with a self-retractor placed in addition to Ragnells retracting proximally and distally. The palmaris brevis muscle was then identified and sharply transected. At this time, we identified the transverse carpal tunnel ligament and a #15 blade was used to sharply and carefully release that fascia.\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Approximately, a 1.5 cm incision was made over the A1 pulley in the volar aspect of the palm of the right index and right middle fingers. First, we went for the index finger. Once the skin incision was made, Metzenbaum scissor was used to longitudinally dissect the subcutaneous tissue and with Ragnell retractors we identified the A1 pulley.\"\n    }\n  ],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"Approximately 2.5 cm incision was made over the volar aspect of the wrist over the carpal tunnel region.\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"Right carpal tunnel release. Right index and middle fingers release A1 pulley.\"},\n  \"patient_age\": {\"value\": \"78\", \"evidence\": \"This is a 78-year-old male\"}\n}\n```"
+      ],
+      "seconds": 33.7
+    },
+    {
+      "note_id": 2285,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Bilateral open carpal tunnel release"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse carpal ligaments"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "Bilateral open carpal tunnel release"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Bilateral open carpal tunnel release\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"transverse carpal ligaments\"},\n  \"laterality\": {\"value\": \"bilateral\", \"evidence\": \"Bilateral open carpal tunnel release\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 12.1
+    },
+    {
+      "note_id": 2287,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Right open carpal tunnel release"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Cortisone injection, left carpal tunnel"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "right upper extremity"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "Bilateral carpal tunnel syndrome"
+        },
+        "patient_age": {
+          "value": 50,
+          "evidence": "This patient is a 50-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal_tunnel_release\",\n      \"evidence\": \"Right open carpal tunnel release\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Cortisone injection, left carpal tunnel\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"wrist\",\n    \"evidence\": \"right upper extremity\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"Bilateral carpal tunnel syndrome\"\n  },\n  \"patient_age\": {\n    \"value\": 50,\n    \"evidence\": \"This patient is a 50-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 20.0
+    },
+    {
+      "note_id": 2288,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Right carpal tunnel release"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "The area overlying the carpal ligament"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right carpal tunnel syndrome"
+        },
+        "patient_age": {
+          "value": 69,
+          "evidence": "This is a 69-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Right carpal tunnel release\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"The area overlying the carpal ligament\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"right carpal tunnel syndrome\"},\n  \"patient_age\": {\"value\": 69, \"evidence\": \"This is a 69-year-old female\"}\n}\n```"
+      ],
+      "seconds": 14.8
+    },
+    {
+      "note_id": 2290,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Endoscopic release of left transverse carpal ligament"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "left upper extremity"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left transverse carpal ligament"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Endoscopic release of left transverse carpal ligament\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"left upper extremity\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left transverse carpal ligament\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 13.0
+    },
+    {
+      "note_id": 2291,
+      "status": "ok",
+      "attempts": 2,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease."
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease."
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease."
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal tunnel release\",\n      \"evidence\": \"After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease.\"\n    },\n    {\n      \"value\": \"anterior submuscular transposition of the ulnar nerve\",\n      \"evidence\": \"I next turned my attention to the cubital tunnel problem and a longitudinal curvilinear incision is made on the medial aspect of the arm extending into the forearm with the incision passing directly between the olecranon and the medial epicondyle. Dissection continues through fascia and then skin clamps are elevated to the level of the fascia on the flexor pronator muscle mass.\"\n    },\n    {\n      \"value\": \"lengthening of the flexor pronator muscle mass\",\n      \"evidence\": \"I now made an oblique division of the entire flexor pronator muscle mass proximally in the forearm and the ulnar nerve was able to be transposed deep to the muscle in a nonkinking and tension-free manner.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"wrist\",\n    \"evidence\": \"After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease.\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg.\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```",
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal tunnel release\",\n      \"evidence\": \"After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"wrist\",\n    \"evidence\": \"After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease.\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"After general anesthesia being induced and the patient intubated, he is given intravenous Ancef. The entire left upper extremity is prepped with Betadine all the way to the axilla and draped in a sterile fashion. A sterile tourniquet and webril are placed higher on the arm. The arm is then exsanguinated with Ace bandage and tourniquet inflated to 250 mmHg. I started first at the carpal tunnel release and a longitudinal curvilinear incision is made parallel to the thenar crease and stopping short of the wrist flexion crease.\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 100.7
+    },
+    {
+      "note_id": 2293,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Carpal tunnel release"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse carpal ligament"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"carpal_tunnel_release\", \"evidence\": \"Carpal tunnel release\"}],\n  \"body_part\": {\"value\": \"wrist\", \"evidence\": \"transverse carpal ligament\"},\n  \"laterality\": {\"value\": \"not mentioned\", \"evidence\": \"\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 11.8
+    },
+    {
+      "note_id": 2294,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Bunionectomy, SCARF type, with metatarsal osteotomy and internal screw fixation, left"
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "Arthroplasty left second toe"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "The foot"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left"
+        },
+        "patient_age": {
+          "value": 39,
+          "evidence": "This 39-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Bunionectomy, SCARF type, with metatarsal osteotomy and internal screw fixation, left\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Arthroplasty left second toe\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"The foot\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left\"\n  },\n  \"patient_age\": {\n    \"value\": 39,\n    \"evidence\": \"This 39-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 21.7
+    },
+    {
+      "note_id": 2295,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "Akin bunionectomy, right toe with internal wire fixation"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right foot"
+        },
+        "patient_age": {
+          "value": 51,
+          "evidence": "This 51-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Akin bunionectomy, right toe with internal wire fixation\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"right foot\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right foot\"\n  },\n  \"patient_age\": {\n    \"value\": 51,\n    \"evidence\": \"This 51-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 22.7
+    },
+    {
+      "note_id": 2296,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "Endoscopic release of left transverse carpal ligament"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "stenosing tenosynovitis of right middle finger. Steroid injection, stenosing tenosynovitis of right middle finger"
+          }
+        ],
+        "body_part": {
+          "value": "wrist",
+          "evidence": "transverse carpal ligament"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left upper extremity"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"carpal_tunnel_release\",\n      \"evidence\": \"Endoscopic release of left transverse carpal ligament\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"stenosing tenosynovitis of right middle finger. Steroid injection, stenosing tenosynovitis of right middle finger\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"wrist\",\n    \"evidence\": \"transverse carpal ligament\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left upper extremity\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 20.0
+    },
+    {
+      "note_id": 2297,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Bunionectomy with first metatarsal osteotomy base wedge type with internal screw fixation"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "Bunion, left foot"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Bunion, left foot"
+        },
+        "patient_age": {
+          "value": 19,
+          "evidence": "This 19-year-old Caucasian female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Bunionectomy with first metatarsal osteotomy base wedge type with internal screw fixation\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Akin osteotomy with internal wire fixation of left foot\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"Bunion, left foot\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Bunion, left foot\"\n  },\n  \"patient_age\": {\n    \"value\": \"19\",\n    \"evidence\": \"This 19-year-old Caucasian female\"\n  }\n}\n```"
+      ],
+      "seconds": 23.1
+    },
+    {
+      "note_id": 2298,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Biopro hemi implant, right first metatarsophalangeal joint"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "Arthrodesis, right second, third, and fourth toes with external rod fixation"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "None"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "None"
+          },
+          {
+            "value": "carpal_tunnel_release",
+            "evidence": "None"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Hammertoe repair, right fifth toe"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Extensor tenotomy and capsulotomy, right fourth metatarsophalangeal joint"
+          },
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Bunionectomy, right foot with Biopro hemi implant, right first metatarsophalangeal joint"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "Hallux abductovalgus, right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Hallux abductovalgus, right foot"
+        },
+        "patient_age": {
+          "value": 51,
+          "evidence": "This 51-year-old female presented"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Biopro hemi implant, right first metatarsophalangeal joint\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Arthrodesis, right second, third, and fourth toes with external rod fixation\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"None\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"None\"\n    },\n    {\n      \"value\": \"carpal_tunnel_release\",\n      \"evidence\": \"None\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Hammertoe repair, right fifth toe\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Extensor tenotomy and capsulotomy, right fourth metatarsophalangeal joint\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Bunionectomy, right foot with Biopro hemi implant, right first metatarsophalangeal joint\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Modified Tailor's bunionectomy, right fifth metatarsal\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"Hallux abductovalgus, right foot\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Hallux abductovalgus, right foot\"\n  },\n  \"patient_age\": {\n    \"value\": 51,\n    \"evidence\": \"This 51-year-old female presented\"\n  }\n}\n```"
+      ],
+      "seconds": 50.6
+    },
+    {
+      "note_id": 2299,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "proximal interphalangeal joint arthroplasty, bilateral fifth toes"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "flexor tenotomy, bilateral third toes"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "A #15 blade was used to make two convergent semi-elliptical incisions over the distal interphalangeal joint"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "hallux abductovalgus, right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot"
+        },
+        "patient_age": {
+          "value": 36,
+          "evidence": "This is a 36-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"proximal interphalangeal joint arthroplasty, bilateral fifth toes\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Distal interphalangeal joint arthroplasty, bilateral third and fourth toes\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"A 2.7 x 16 mm Synthes, fully threaded cortical screw throne\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"A second screw was throne, which was a 2.0 x 12 mm Synthes cortical screw\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"flexor tenotomy, bilateral third toes\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"A #15 blade was used to make two convergent semi-elliptical incisions over the distal interphalangeal joint\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"The medial and lateral collateral ligaments were released\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"hallux abductovalgus, right foot\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"bunionectomy with distal first metatarsal osteotomy and internal screw fixation, right foot\"\n  },\n  \"patient_age\": {\n    \"value\": 36,\n    \"evidence\": \"This is a 36-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 46.5
+    },
+    {
+      "note_id": 2301,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "An approximately 6 cm dorsal medial incision was created over the first metatarsophalangeal joint. An approximately 6 cm dorsal medial incision was created over the first metatarsophalangeal joint"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Attention was then directed to the first interspace where a lateral release was performed."
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "bunion deformity on the right foot"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right foot"
+        },
+        "patient_age": {
+          "value": 77,
+          "evidence": "This 77-year-old African-American female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"An approximately 6 cm dorsal medial incision was created over the first metatarsophalangeal joint. An approximately 6 cm dorsal medial incision was created over the first metatarsophalangeal joint\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Attention was then directed to the first interspace where a lateral release was performed.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"bunion deformity on the right foot\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right foot\"\n  },\n  \"patient_age\": {\n    \"value\": \"77\",\n    \"evidence\": \"This 77-year-old African-American female\"\n  }\n}\n```"
+      ],
+      "seconds": 24.2
+    },
+    {
+      "note_id": 2307,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Repair of distal biceps tendon, right elbow"
+          }
+        ],
+        "body_part": {
+          "value": "elbow",
+          "evidence": "right elbow"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right upper extremity"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Repair of distal biceps tendon, right elbow\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"elbow\",\n    \"evidence\": \"right elbow\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right upper extremity\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 16.7
+    },
+    {
+      "note_id": 2309,
+      "status": "failed",
+      "attempts": 2,
+      "fields": null,
+      "rejected_procedures": [],
+      "error": "invalid JSON: Expecting ',' delimiter: line 82 column 6 (char 2634)",
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Diagnostic arthroscopy exam under anesthesia, left shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Debridement of chondral injury, left shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Debridement, superior glenoid, left shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthrotomy\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Bankart lesion repair\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Capsular shift, left shoulder (Mitek suture anchors; absorbable anchors with nonabsorbable sutures)\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"The patient was then turned to right lateral decubitus position, axillary roll was placed, and beanbag was inflated\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Peroneal nerve was well protected\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"All bony prominences were well protected\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The arm was then prepped and draped in the usual sterile fashion\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The arm was then examined systematically\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The patient did have diffuse synovitis throughout her shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Her posterior humeral head showed an enlarged bold spot with some other areas of chondromalacia on the posterior head\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"She also had an area 1 cm in diameter, which was on more central portion of the head and more inferiorly which appeared to be more of an impaction-type injury\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"These were later debrided, but the dissection was proximally 10 to 15% of the humeral surface\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The biceps tendon appeared to be normal\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The supraspinatus, infraspinatus tendons were normal\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The inferior pouch was normal with no capsular tearing and no HAGL lesions\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The posteroinferior labrum was normal as well as the posterosuperior labrum\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"There was some fraying in the posterosuperior labrum, which was later debrided\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"It was found essentially to be a type 1",
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Diagnostic arthroscopy exam under anesthesia, left shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Debridement of chondral injury, left shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Debridement, superior glenoid, left shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthrotomy\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Bankart lesion repair\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Capsular shift, left shoulder (Mitek suture anchors; absorbable anchors with nonabsorbable sutures)\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"The patient was then turned to right lateral decubitus position, axillary roll was placed, and beanbag was inflated\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Peroneal nerve was well protected\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"All bony prominences were well protected\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The arm was then prepped and draped in the usual sterile fashion\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The arm was then examined systematically\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The patient did have diffuse synovitis throughout her shoulder\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Her posterior humeral head showed an enlarged bold spot with some other areas of chondromalacia on the posterior head\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"She also had an area 1 cm in diameter, which was on more central portion of the head and more inferiorly which appeared to be more of an impaction-type injury\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"These were later debrided, but the dissection was proximally 10 to 15% of the humeral surface\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The biceps tendon appeared to be normal\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The supraspinatus, infraspinatus tendons were normal\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The inferior pouch was normal with no capsular tearing and no HAGL lesions\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The posteroinferior labrum was normal as well as the posterosuperior labrum\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"There was some fraying in the posterosuperior labrum, which was later debrided\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"It was found essentially to be a type 1"
+      ],
+      "seconds": 137.7
+    },
+    {
+      "note_id": 2310,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Austin bunionectomy with internal screw fixation, first metatarsal, left foot"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "left foot"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left foot"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Austin bunionectomy with internal screw fixation, first metatarsal, left foot\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"left foot\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left foot\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 17.9
+    },
+    {
+      "note_id": 2313,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "second right PIP joint. Arthroplasty, second right PIP joint."
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "Austin-Akin bunionectomy with internal screw fixation of the first right metatarsophalangeal joint. Weil osteotomy with internal screw fixation, first right metatarsal."
+          },
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Austin osteotomy on the capital aspect of the first right metatarsal"
+          }
+        ],
+        "body_part": {
+          "value": "foot",
+          "evidence": "bunion deformity, right foot. The right foot was then prepped, scrubbed, and draped"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right foot. The right ankle was covered with cast padding and an 18-inch ankle tourniquet was placed around the right ankle"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"second right PIP joint. Arthroplasty, second right PIP joint.\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"Austin-Akin bunionectomy with internal screw fixation of the first right metatarsophalangeal joint. Weil osteotomy with internal screw fixation, first right metatarsal.\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Austin osteotomy on the capital aspect of the first right metatarsal\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Akin osteotomy was also performed on the base of the proximal phalanx of the right great toe\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"foot\",\n    \"evidence\": \"bunion deformity, right foot. The right foot was then prepped, scrubbed, and draped\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right foot. The right ankle was covered with cast padding and an 18-inch ankle tourniquet was placed around the right ankle\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 35.4
+    },
+    {
+      "note_id": 2315,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopy of the left knee"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Arthroscopy of the left knee"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left knee"
+        },
+        "patient_age": {
+          "value": 41,
+          "evidence": "The patient is a 41-year-old male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopy of the left knee\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left arthroscopic medial meniscoplasty\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Chondroplasty of the left knee\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Arthroscopy of the left knee\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left knee\"\n  },\n  \"patient_age\": {\n    \"value\": 41,\n    \"evidence\": \"The patient is a 41-year-old male\"\n  }\n}\n```"
+      ],
+      "seconds": 21.0
+    },
+    {
+      "note_id": 2316,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Repair of torn subscapularis tendon (rotator cuff tendon)"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "Debridement glenohumeral joint"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Biopsy and culturing the right shoulder"
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "removal humeral head implant, right shoulder"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "The patient had done well after a previous total shoulder arthroplasty performed by Dr. X. However, the patient was lifted with subsequent significant pain and apparent tearing of his subscapularis"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right upper extremity was then prepped and draped in the usual sterile fashion"
+        },
+        "patient_age": {
+          "value": 54,
+          "evidence": "The patient is a 54-year-old man"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Repair of torn subscapularis tendon (rotator cuff tendon)\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Debridement glenohumeral joint\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Biopsy and culturing the right shoulder\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"removal humeral head implant, right shoulder\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"The patient had done well after a previous total shoulder arthroplasty performed by Dr. X. However, the patient was lifted with subsequent significant pain and apparent tearing of his subscapularis\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right upper extremity was then prepped and draped in the usual sterile fashion\"\n  },\n  \"patient_age\": {\n    \"value\": 54,\n    \"evidence\": \"The patient is a 54-year-old man\"\n  }\n}\n```"
+      ],
+      "seconds": 36.5
+    },
+    {
+      "note_id": 2318,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Right shoulder arthroscopy, subacromial decompression, distal clavicle excision, bursectomy, and coracoacromial ligament resection"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "Right shoulder arthroscopy"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Right shoulder arthroscopy"
+        },
+        "patient_age": {
+          "value": 50,
+          "evidence": "A very active 50-year-old gentleman"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Right shoulder arthroscopy, subacromial decompression, distal clavicle excision, bursectomy, and coracoacromial ligament resection\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Right carpal tunnel release\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy and partial medial and lateral meniscectomy\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"Right shoulder arthroscopy\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"Right shoulder arthroscopy\"\n  },\n  \"patient_age\": {\n    \"value\": 50,\n    \"evidence\": \"A very active 50-year-old gentleman\"\n  }\n}\n```"
+      ],
+      "seconds": 24.5
+    },
+    {
+      "note_id": 2320,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Scope Ports: Anterior Portal."
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "The supraspinatus tendon was reattached and sutured using the arthroscopic knot pusher and Mitek knotless anchor system and curved pointed suture passer and large bore cannula (to pass the sutures)."
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "arthroscopic rotator cuff repair with subacromial decompression"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right shoulder"
+        },
+        "patient_age": {
+          "value": 42,
+          "evidence": "This is a 42-year-old female."
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Scope Ports: Anterior Portal.\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Scope Ports: Posterior Portal.\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Scope Ports: Accessory Anterior Portal.\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"The supraspinatus tendon was reattached and sutured using the arthroscopic knot pusher and Mitek knotless anchor system and curved pointed suture passer and large bore cannula (to pass the sutures).\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"arthroscopic rotator cuff repair with subacromial decompression\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right shoulder\"\n  },\n  \"patient_age\": {\n    \"value\": 42,\n    \"evidence\": \"This is a 42-year-old female.\"\n  }\n}\n```"
+      ],
+      "seconds": 27.3
+    },
+    {
+      "note_id": 2321,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Diagnostic arthroscopy with partial chondroplasty of patella"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "Lateral retinacular release"
+          },
+          {
+            "value": "bunionectomy_osteotomy",
+            "evidence": "Open tibial tubercle transfer with fixation of two 4.5 mm cannulated screws"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Diagnostic arthroscopy with partial chondroplasty of patella"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "She was taken to Operating Room at ABCD General Hospital"
+        },
+        "patient_age": {
+          "value": 36,
+          "evidence": "This is a 36-year-old Caucasian female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Diagnostic arthroscopy with partial chondroplasty of patella\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"Lateral retinacular release\"\n    },\n    {\n      \"value\": \"bunionectomy_osteotomy\",\n      \"evidence\": \"Open tibial tubercle transfer with fixation of two 4.5 mm cannulated screws\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Diagnostic arthroscopy with partial chondroplasty of patella\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"She was taken to Operating Room at ABCD General Hospital\"\n  },\n  \"patient_age\": {\n    \"value\": 36,\n    \"evidence\": \"This is a 36-year-old Caucasian female\"\n  }\n}\n```"
+      ],
+      "seconds": 24.7
+    },
+    {
+      "note_id": 2322,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "an arthroscopic camera was then inserted and the knee was sequentially examined"
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "It was noted that the meniscus was followed out to the whole and the entire piece was taken out of the knee"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Arthroscopic lateral meniscoplasty. Patellar shaving of the right knee."
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right knee pain. He complained of pain on the medial aspect of his right knee after an injury at work, which he twisted his right knee."
+        },
+        "patient_age": {
+          "value": 45,
+          "evidence": "The patient is a 45-year-old Caucasian male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"an arthroscopic camera was then inserted and the knee was sequentially examined\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"It was noted that the meniscus was followed out to the whole and the entire piece was taken out of the knee\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Arthroscopic lateral meniscoplasty. Patellar shaving of the right knee.\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right knee pain. He complained of pain on the medial aspect of his right knee after an injury at work, which he twisted his right knee.\"\n  },\n  \"patient_age\": {\n    \"value\": 45,\n    \"evidence\": \"The patient is a 45-year-old Caucasian male\"\n  }\n}\n```"
+      ],
+      "seconds": 24.6
+    },
+    {
+      "note_id": 2324,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopic rotator cuff repair."
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "The shoulder and upper extremity"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopic rotator cuff repair.\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopic subacromial decompression.\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopic extensive debridement, superior labrum anterior and posterior tear.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"The shoulder and upper extremity\"\n  },\n  \"laterality\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 20.2
+    },
+    {
+      "note_id": 2325,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopy with arthroscopic SLAP lesion"
+          },
+          {
+            "value": "soft_tissue_release",
+            "evidence": "soft tissue release of the CA ligament in a releasing resection type fashion"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "superior labrum anterior and posterior lesion (peel-back), right shoulder"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "right shoulder"
+        },
+        "patient_age": {
+          "value": 54,
+          "evidence": "This is a 54-year-old white female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopy with arthroscopic SLAP lesion\"\n    },\n    {\n      \"value\": \"soft_tissue_release\",\n      \"evidence\": \"soft tissue release of the CA ligament in a releasing resection type fashion\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"superior labrum anterior and posterior lesion (peel-back), right shoulder\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"right shoulder\"\n  },\n  \"patient_age\": {\n    \"value\": 54,\n    \"evidence\": \"This is a 54-year-old white female\"\n  }\n}\n```"
+      ],
+      "seconds": 21.9
+    },
+    {
+      "note_id": 2326,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Left hip arthroscopic debridement"
+          }
+        ],
+        "body_part": {
+          "value": "hip",
+          "evidence": "Left hip arthroscopic debridement"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Left hip arthroscopic debridement"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left hip arthroscopic debridement\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left hip arthroscopic femoral neck osteoplasty\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left hip arthroscopic labral repair\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"hip\",\n    \"evidence\": \"Left hip arthroscopic debridement\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Left hip arthroscopic debridement\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 19.9
+    },
+    {
+      "note_id": 2328,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopic debridement of the left shoulder with attempted arthroscopic Bankart repair"
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "open Bankart arthroplasty of the left shoulder"
+          }
+        ],
+        "body_part": {
+          "value": "shoulder",
+          "evidence": "left shoulder"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left shoulder"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopic debridement of the left shoulder with attempted arthroscopic Bankart repair\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"open Bankart arthroplasty of the left shoulder\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"shoulder\",\n    \"evidence\": \"left shoulder\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left shoulder\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 20.1
+    },
+    {
+      "note_id": 2330,
+      "status": "ok",
+      "attempts": 2,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Arthroplasty of the left fifth digit proximal interphalangeal joint laterally"
+          }
+        ],
+        "body_part": {
+          "value": "fifth toe",
+          "evidence": "hammertoe deformity of her left fifth toe"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left fifth digit"
+        },
+        "patient_age": {
+          "value": 38,
+          "evidence": "a 38-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Arthroplasty of the left fifth digit proximal interphalangeal joint laterally\"\n    },\n    {\n      \"value\": \"excision\",\n      \"evidence\": \"Excision of plantar ulceration of the left fifth digit 3 cm x 1 cm in size\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"fifth toe\",\n    \"evidence\": \"hammertoe deformity of her left fifth toe\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left fifth digit\"\n  },\n  \"patient_age\": {\n    \"value\": 38,\n    \"evidence\": \"a 38-year-old female\"\n  }\n}\n```",
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Arthroplasty of the left fifth digit proximal interphalangeal joint laterally\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"fifth toe\",\n    \"evidence\": \"hammertoe deformity of her left fifth toe\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left fifth digit\"\n  },\n  \"patient_age\": {\n    \"value\": 38,\n    \"evidence\": \"a 38-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 42.5
+    },
+    {
+      "note_id": 2334,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroscopy",
+            "evidence": "Arthroscopy of the left knee was performed"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "graft was harvested from the semitendinosus and gracilis region"
+          }
+        ],
+        "body_part": {
+          "value": "knee",
+          "evidence": "Arthroscopy of the left knee was performed"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "Arthroscopy of the left knee was performed"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Arthroscopy of the left knee was performed\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"graft was harvested from the semitendinosus and gracilis region\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"ACL was confirmed and ruptured\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"There was noted to be a torn, slipped up area of the medial meniscus\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"entire area was thoroughly irrigated\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"significant degenerative changes from this impingement of the meniscus\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"The areas of the worn away portion of the medial femoral condyle was then debrided\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"knee\",\n    \"evidence\": \"Arthroscopy of the left knee was performed\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"Arthroscopy of the left knee was performed\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 30.4
+    },
+    {
+      "note_id": 2335,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "Anterior cervical discectomy at C5-C6 for neural decompression"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "Anterior interbody fusion C5-C6"
+          }
+        ],
+        "body_part": {
+          "value": "neck",
+          "evidence": "Anterior cervical discectomy at C5-C6 for neural decompression"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left radiculopathy"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Anterior cervical discectomy at C5-C6 for neural decompression\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Anterior interbody fusion C5-C6\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Anterior cervical instrumentation at C5-C6 for stabilization\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"neck\",\n    \"evidence\": \"Anterior cervical discectomy at C5-C6 for neural decompression\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left radiculopathy\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 20.8
+    },
+    {
+      "note_id": 2337,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "C5-C6 anterior cervical discectomy"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "allograft fusion"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "C5-C6 anterior cervical discectomy"
+        },
+        "laterality": {
+          "value": "anterior",
+          "evidence": "anterior cervical discectomy"
+        },
+        "patient_age": {
+          "value": 57,
+          "evidence": "This is a 57-year-old gentleman"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"C5-C6 anterior cervical discectomy\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"allograft fusion\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"anterior plating\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"C5-C6 anterior cervical discectomy\"\n  },\n  \"laterality\": {\n    \"value\": \"anterior\",\n    \"evidence\": \"anterior cervical discectomy\"\n  },\n  \"patient_age\": {\n    \"value\": 57,\n    \"evidence\": \"This is a 57-year-old gentleman\"\n  }\n}\n```"
+      ],
+      "seconds": 21.3
+    },
+    {
+      "note_id": 2338,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "C4-C5, C5-C6 anterior cervical discectomy and fusion"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "End plates were arthrodesed using curettes"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "C4-C5, C5-C6 anterior cervical discectomy and fusion"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "Bilateral foraminotomies were done"
+        },
+        "patient_age": {
+          "value": 62,
+          "evidence": "The patient is a 62-year-old female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"C4-C5, C5-C6 anterior cervical discectomy and fusion\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"End plates were arthrodesed using curettes\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Bilateral foraminotomies were done\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"C4-C5, C5-C6 anterior cervical discectomy and fusion\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"Bilateral foraminotomies were done\"\n  },\n  \"patient_age\": {\n    \"value\": 62,\n    \"evidence\": \"The patient is a 62-year-old female\"\n  }\n}\n```"
+      ],
+      "seconds": 24.1
+    },
+    {
+      "note_id": 2339,
+      "status": "ok",
+      "attempts": 2,
+      "fields": {
+        "procedure": [
+          {
+            "value": "arthroplasty",
+            "evidence": "Implant using PEEK 7 mm"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "Arthrodesis with anterior interbody fusion, C5-C6"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "Anterior cervical discectomy with decompression, C5-C6"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Allograft using Vitoss"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "Cervical spondylosis with herniated nucleus pulposus, C5-C6"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "bilateral upper extremity radiculopathy, left more than the right"
+        },
+        "patient_age": {
+          "value": 38,
+          "evidence": "This is a case of a very pleasant 38-year-old Caucasian female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Anterior cervical discectomy with decompression, C5-C6\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Arthrodesis with anterior interbody fusion, C5-C6\"\n    },\n    {\n      \"value\": \"spinal_instrumentation\",\n      \"evidence\": \"Spinal instrumentation, C5-C6 using Pioneer 18-mm plate and four 14 x 4.0 mm screws (all titanium)\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Implant using PEEK 7 mm\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Allograft using Vitoss\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"Cervical spondylosis with herniated nucleus pulposus, C5-C6\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"bilateral upper extremity radiculopathy, left more than the right\"\n  },\n  \"patient_age\": {\n    \"value\": 38,\n    \"evidence\": \"This is a case of a very pleasant 38-year-old Caucasian female\"\n  }\n}\n```",
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Implant using PEEK 7 mm\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Arthrodesis with anterior interbody fusion, C5-C6\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Anterior cervical discectomy with decompression, C5-C6\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Allograft using Vitoss\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"Cervical spondylosis with herniated nucleus pulposus, C5-C6\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"bilateral upper extremity radiculopathy, left more than the right\"\n  },\n  \"patient_age\": {\n    \"value\": 38,\n    \"evidence\": \"This is a case of a very pleasant 38-year-old Caucasian female\"\n  }\n}\n```"
+      ],
+      "seconds": 68.9
+    },
+    {
+      "note_id": 2340,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "We then thoroughly decompressed both C6 nerve roots"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "The next step was the fusion"
+          },
+          {
+            "value": "fracture_fixation",
+            "evidence": "We then use the Aesculap cervical titanium instrumentation with the 16-mm screws"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "Anterior cervical discectomy fusion C5-C6"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"We then thoroughly decompressed both C6 nerve roots\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"The next step was the fusion\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"We observed that there was a ____________ in the posterior longitudinal ligament\"\n    },\n    {\n      \"value\": \"fracture_fixation\",\n      \"evidence\": \"We then use the Aesculap cervical titanium instrumentation with the 16-mm screws\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"Anterior cervical discectomy fusion C5-C6\"\n  },\n  \"laterality\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 24.4
+    },
+    {
+      "note_id": 2342,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_fusion",
+            "evidence": "anterior cervical interbody arthrodesis, C5-C6"
+          },
+          {
+            "value": "spinal_decompression",
+            "evidence": "anterior cervical discectomy and osteophytectomy, C5-C6"
+          },
+          {
+            "value": "arthroscopy",
+            "evidence": "Left knee arthroscopy with partial medial meniscectomy"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "Cervical radiculopathy, C5-C6 and C6-C7"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "longus colli muscle was dissected free bilaterally"
+        },
+        "patient_age": {
+          "value": 54,
+          "evidence": "The patient is a 54-year-old man"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"anterior cervical interbody arthrodesis, C5-C6\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"anterior cervical interbody arthrodesis, C6-C7\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"anterior cervical discectomy and osteophytectomy, C5-C6\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"anterior cervical discectomy and osteophytectomy, C6-C7\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"anterior cervical instrumentation, C5-C7\"\n    },\n    {\n      \"value\": \"arthroscopy\",\n      \"evidence\": \"Left knee arthroscopy with partial medial meniscectomy\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"Cervical radiculopathy, C5-C6 and C6-C7\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"longus colli muscle was dissected free bilaterally\"\n  },\n  \"patient_age\": {\n    \"value\": 54,\n    \"evidence\": \"The patient is a 54-year-old man\"\n  }\n}\n```"
+      ],
+      "seconds": 35.9
+    },
+    {
+      "note_id": 2345,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "Anterior cervical discectomy with decompression, C3-4"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "Arthrodesis with anterior interbody fusion, C3-4"
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "Implant using PEEK 7 mm"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Allograft using Vitoss"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "Cervical myelopathy, C3-4, secondary to stenosis from herniated nucleus pulposus, C3-4"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "The patient started complaining of acute right arm and right leg weakness"
+        },
+        "patient_age": {
+          "value": 32,
+          "evidence": "This is a case of a very pleasant 32-year-old Caucasian male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Anterior cervical discectomy with decompression, C3-4\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Arthrodesis with anterior interbody fusion, C3-4\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Spinal instrumentation using Pioneer 18-mm plate and four 14 x 4.3 mm screws (all titanium)\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"Implant using PEEK 7 mm\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Allograft using Vitoss\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"Cervical myelopathy, C3-4, secondary to stenosis from herniated nucleus pulposus, C3-4\"\n  },\n  \"laterality\": {\n    \"value\": \"right\",\n    \"evidence\": \"The patient started complaining of acute right arm and right leg weakness\"\n  },\n  \"patient_age\": {\n    \"value\": 32,\n    \"evidence\": \"This is a case of a very pleasant 32-year-old Caucasian male\"\n  }\n}\n```"
+      ],
+      "seconds": 34.6
+    },
+    {
+      "note_id": 2349,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "We then meticulously removed the disk at C3-C4, C4-C5 using the combination of angled strip, pituitary rongeurs, and curettes"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "We then placed a titanium ABC plate from C3-C5, secured it with 16-mm titanium screws."
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "Anterior cervical discectomy fusion C3-C4 and C4-C5"
+        },
+        "laterality": {
+          "value": "not mentioned",
+          "evidence": ""
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"We then meticulously removed the disk at C3-C4, C4-C5 using the combination of angled strip, pituitary rongeurs, and curettes\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"After having totally decompressed both the cord as well as the nerve roots of C3-C4, C4-C5, we proceeded to the next step, which was a fusion.\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"We then placed a titanium ABC plate from C3-C5, secured it with 16-mm titanium screws.\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"Anterior cervical discectomy fusion C3-C4 and C4-C5\"\n  },\n  \"laterality\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 27.6
+    },
+    {
+      "note_id": 2350,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "C5-C6 anterior cervical discectomy"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "left cervical radiculopathy"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left arm pain"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"spinal_decompression\", \"evidence\": \"C5-C6 anterior cervical discectomy\"}],\n  \"body_part\": {\"value\": \"cervical spine\", \"evidence\": \"left cervical radiculopathy\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left arm pain\"},\n  \"patient_age\": {\"value\": \"not mentioned\", \"evidence\": \"\"}\n}\n```"
+      ],
+      "seconds": 12.7
+    },
+    {
+      "note_id": 2355,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "anterior cervical discectomy with decompression C6-C7"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "Arthrodesis with anterior interbody fusion C6-C7"
+          },
+          {
+            "value": "arthroplasty",
+            "evidence": "PEEK implant 7 mm"
+          },
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Allograft using Vitoss"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "anterior cervical discectomy with decompression C6-C7"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left C6-C7 neuroforaminal stenosis"
+        },
+        "patient_age": {
+          "value": 46,
+          "evidence": "This is the case of a very pleasant 46-year-old Caucasian female"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"anterior cervical discectomy with decompression C6-C7\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Arthrodesis with anterior interbody fusion C6-C7\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"spinal instrumentation using Pioneer 20 mm plate and four 12 x 4.0 mm screws\"\n    },\n    {\n      \"value\": \"arthroplasty\",\n      \"evidence\": \"PEEK implant 7 mm\"\n    },\n    {\n      \"value\": \"tendon_ligament_repair\",\n      \"evidence\": \"Allograft using Vitoss\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"anterior cervical discectomy with decompression C6-C7\"\n  },\n  \"laterality\": {\n    \"value\": \"left\",\n    \"evidence\": \"left C6-C7 neuroforaminal stenosis\"\n  },\n  \"patient_age\": {\n    \"value\": 46,\n    \"evidence\": \"This is the case of a very pleasant 46-year-old Caucasian female\"\n  }\n}\n```"
+      ],
+      "seconds": 32.6
+    },
+    {
+      "note_id": 2356,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "C5-C6 and C6-C7 anterior cervical discectomy (two levels)"
+          },
+          {
+            "value": "spinal_fusion",
+            "evidence": "allograft fusions"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "C5-C6 and C6-C7 anterior cervical discectomy"
+        },
+        "laterality": {
+          "value": "bilateral",
+          "evidence": "C5-C6 and C6-C7"
+        },
+        "patient_age": {
+          "value": "not mentioned",
+          "evidence": ""
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"C5-C6 and C6-C7 anterior cervical discectomy (two levels)\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"discectomy at C5-C6 from endplate-to-endplate\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"discectomy at C6-C7 from endplate-to-endplate\"\n    },\n    {\n      \"value\": \"spinal_decompression\",\n      \"evidence\": \"Kerrison punches 1-mm and then 2-mm were used to decompress further disk calcified material\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"allograft fusions\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"Vertebral body distraction pins were placed to the vertebral body of C5 and C7\"\n    },\n    {\n      \"value\": \"spinal_fusion\",\n      \"evidence\": \"6-mm allograft performed grafts were taken and packed in either aspect with demineralized bone matrix\"\n    }\n  ],\n  \"body_part\": {\n    \"value\": \"cervical spine\",\n    \"evidence\": \"C5-C6 and C6-C7 anterior cervical discectomy\"\n  },\n  \"laterality\": {\n    \"value\": \"bilateral\",\n    \"evidence\": \"C5-C6 and C6-C7\"\n  },\n  \"patient_age\": {\n    \"value\": \"not mentioned\",\n    \"evidence\": \"\"\n  }\n}\n```"
+      ],
+      "seconds": 38.4
+    },
+    {
+      "note_id": 2357,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "spinal_decompression",
+            "evidence": "Anterior cervical discectomy at C5-6 and placement of artificial disk replacement"
+          }
+        ],
+        "body_part": {
+          "value": "cervical spine",
+          "evidence": "Right C5-C6 herniated nucleus pulposus"
+        },
+        "laterality": {
+          "value": "right",
+          "evidence": "Right C5-C6 herniated nucleus pulposus"
+        },
+        "patient_age": {
+          "value": 43,
+          "evidence": "This is a pleasant, 43-year-old woman"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"spinal_decompression\", \"evidence\": \"Anterior cervical discectomy at C5-6 and placement of artificial disk replacement\"}],\n  \"body_part\": {\"value\": \"cervical spine\", \"evidence\": \"Right C5-C6 herniated nucleus pulposus\"},\n  \"laterality\": {\"value\": \"right\", \"evidence\": \"Right C5-C6 herniated nucleus pulposus\"},\n  \"patient_age\": {\"value\": 43, \"evidence\": \"This is a pleasant, 43-year-old woman\"}\n}\n```"
+      ],
+      "seconds": 15.2
+    },
+    {
+      "note_id": 2360,
+      "status": "ok",
+      "attempts": 1,
+      "fields": {
+        "procedure": [
+          {
+            "value": "tendon_ligament_repair",
+            "evidence": "Primary repair left Achilles tendon"
+          }
+        ],
+        "body_part": {
+          "value": "ankle",
+          "evidence": "Achilles tendon"
+        },
+        "laterality": {
+          "value": "left",
+          "evidence": "left Achilles tendon"
+        },
+        "patient_age": {
+          "value": 26,
+          "evidence": "The patient is a 26-year-old African-American male"
+        }
+      },
+      "rejected_procedures": [],
+      "error": null,
+      "raw_outputs": [
+        "```json\n{\n  \"procedure\": [{\"value\": \"tendon_ligament_repair\", \"evidence\": \"Primary repair left Achilles tendon\"}],\n  \"body_part\": {\"value\": \"ankle\", \"evidence\": \"Achilles tendon\"},\n  \"laterality\": {\"value\": \"left\", \"evidence\": \"left Achilles tendon\"},\n  \"patient_age\": {\"value\": 26, \"evidence\": \"The patient is a 26-year-old African-American male\"}\n}\n```"
+      ],
+      "seconds": 14.7
+    }
+  ]
+}
