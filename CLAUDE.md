@@ -24,7 +24,8 @@ It is a small portfolio demo inspired by published research on LLM-based procedu
 ## Folder structure
 ```
 data/           mtsamples.csv (raw, gitignored), notes.csv, results.json
-scripts/        prepare_data.py (Phase 1 data prep) + its tests
+scripts/        prepare_data.py (Phase 1 data prep) + its tests; build_notebook.py (regenerates the
+                notebook; pastes in backend/registry/extraction_core.py, the shared prompt/validation/flag rules)
 notebooks/      extract.ipynb (runs in Colab)
 backend/        Django project + app
 frontend/       React app

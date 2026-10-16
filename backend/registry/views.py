@@ -50,6 +50,8 @@ def note_detail_dict(n):
             "keywords": n.keywords, "extraction_error": n.extraction_error, "attempts": n.attempts,
             "model_name": n.model_name, "prompt_version": n.prompt_version,
             "extracted_at": n.extracted_at.isoformat() if n.extracted_at else None,
+            # Raw replies help explain a failure; for successful notes they'd only add page weight.
+            "raw_outputs": n.raw_outputs if n.extraction_status == "failed" else [],
             "extractions": [extraction_dict(e, n.transcription) for e in n.extractions.all()]}
 
 
