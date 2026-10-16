@@ -71,7 +71,13 @@ export default function App() {
       )}
 
       <footer>
-        Demo only, not for clinical use. Notes are public, de-identified samples from MTSamples.
+        <p>Demo only, not for clinical use. Notes are public, de-identified samples from MTSamples.</p>
+        <p className="credit">
+          Built by Ashwin Nair ·{" "}
+          <a href="https://github.com/nairashwin9297/clinical-registry-builder" target="_blank" rel="noreferrer">GitHub</a>
+          {" · "}
+          <a href="https://linkedin.com/in/ashwinnair09" target="_blank" rel="noreferrer">LinkedIn</a>
+        </p>
       </footer>
     </div>
   );
