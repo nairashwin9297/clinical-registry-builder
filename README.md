@@ -201,4 +201,8 @@ frontend/     React + Vite + Chart.js
   dataset. The raw CSV is not included in this repository.
 - Model: [Gemma 3 4B (instruction-tuned)](https://huggingface.co/google/gemma-3-4b-it) by Google, used under
   the Gemma terms of use.
-- Inspired by published research on LLM-based procedure extraction from orthopedic operative notes.
+- Inspiration: Williamson A, Tavabi N, et al., Kiapour AM. "Large language models for zero-shot procedure
+  extraction in orthopedic surgery: a comparative evaluation." *Scientific Reports*, 2026. Preprint:
+  https://doi.org/10.1101/2025.08.19.25333995. This project only borrows the idea; its setup is much
+  simpler (9 procedure classes instead of 74, an approximate answer key instead of expert labels, a small
+  public sample), so its numbers are not comparable with the paper's.
